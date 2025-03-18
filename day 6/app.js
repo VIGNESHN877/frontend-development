@@ -12,4 +12,3 @@ const requestHandler = (req,res)=>{
     res.write('</html>');
 
 
-    if (url === '/message' && method === 'POST')
