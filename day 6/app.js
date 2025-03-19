@@ -10,5 +10,3 @@ const requestHandler = (req,res)=>{
     res.write('<head><title>Enter From Details <title></head>');
     res.write('<body><form action="/message" method="POST"><input type="text" name="input placeholder">');
     res.write('</html>');
-
-
